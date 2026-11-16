@@ -1,92 +1,74 @@
-{
-  "project": "BRISC-XAI-Brain-Tumor",
-  "dataset": "BRISC",
-  "task": "Brain Tumor Classification",
-  "framework": "PyTorch",
-  "model_count": 9,
-  "models": [
-    {
-      "model_id": "model_01",
-      "model_name": "Model 1",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 1",
-      "prediction_file": "outputs/predictions/model_01_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_02",
-      "model_name": "Model 2",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 2",
-      "prediction_file": "outputs/predictions/model_02_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_03",
-      "model_name": "Model 3",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 3",
-      "prediction_file": "outputs/predictions/model_03_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_04",
-      "model_name": "Model 4",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 4",
-      "prediction_file": "outputs/predictions/model_04_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_05",
-      "model_name": "Model 5",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 5",
-      "prediction_file": "outputs/predictions/model_05_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_06",
-      "model_name": "Model 6",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 6",
-      "prediction_file": "outputs/predictions/model_06_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_07",
-      "model_name": "Model 7",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 7",
-      "prediction_file": "outputs/predictions/model_07_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_08",
-      "model_name": "Model 8",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 8",
-      "prediction_file": "outputs/predictions/model_08_predictions.csv",
-      "status": "update_required"
-    },
-    {
-      "model_id": "model_09",
-      "model_name": "Model 9",
-      "seed": null,
-      "checkpoint": "Google Drive link to checkpoint 9",
-      "prediction_file": "outputs/predictions/model_09_predictions.csv",
-      "status": "update_required"
-    }
-  ],
-  "storage": {
-    "checkpoint_location": "Google Drive",
-    "prediction_location": "GitHub",
-    "heatmap_location": "Google Drive or GitHub",
-    "shared_drive_link": "ADD_SHARED_GOOGLE_DRIVE_LINK"
+[
+  {
+    "model": "RepViT M0.9",
+    "model_id": "repvit_m0_9.dist_450e_in1k",
+    "seed": 42,
+    "selected_epoch": 15,
+    "weights": "models/repvit_m0_9.dist_450e_in1k_seed42_epoch15.pt",
+    "reference_predictions": "outputs/predictions/repvit_m0_9.dist_450e_in1k_seed42_test_predictions.csv"
   },
-  "documentation": {
-    "training_protocol": "configs/brisc_training_protocol_draft_v1.json",
-    "evaluation_notebook": "notebooks/10_BRISC_Learning_Curves_and_Test_Evaluation.ipynb",
-    "xai_notebook": "notebooks/11_BRISC_XAI_Comparison.ipynb"
+  {
+    "model": "ConvNeXt V2 Atto",
+    "model_id": "convnextv2_atto.fcmae_ft_in1k",
+    "seed": 42,
+    "selected_epoch": 10,
+    "weights": "models/convnextv2_atto.fcmae_ft_in1k_seed42_epoch10.pt",
+    "reference_predictions": "outputs/predictions/convnextv2_atto.fcmae_ft_in1k_seed42_test_predictions.csv"
+  },
+  {
+    "model": "MobileNetV4 Conv Small",
+    "model_id": "mobilenetv4_conv_small.e2400_r224_in1k",
+    "seed": 42,
+    "selected_epoch": 14,
+    "weights": "models/mobilenetv4_conv_small.e2400_r224_in1k_seed42_epoch14.pt",
+    "reference_predictions": "outputs/predictions/mobilenetv4_conv_small.e2400_r224_in1k_seed42_test_predictions.csv"
+  },
+  {
+    "model": "RepViT M0.9",
+    "model_id": "repvit_m0_9.dist_450e_in1k",
+    "seed": 123,
+    "selected_epoch": 13,
+    "weights": "models/repvit_m0_9.dist_450e_in1k_seed123_epoch13.pt",
+    "reference_predictions": "outputs/predictions/repvit_m0_9.dist_450e_in1k_seed123_test_predictions.csv"
+  },
+  {
+    "model": "ConvNeXt V2 Atto",
+    "model_id": "convnextv2_atto.fcmae_ft_in1k",
+    "seed": 123,
+    "selected_epoch": 8,
+    "weights": "models/convnextv2_atto.fcmae_ft_in1k_seed123_epoch08.pt",
+    "reference_predictions": "outputs/predictions/convnextv2_atto.fcmae_ft_in1k_seed123_test_predictions.csv"
+  },
+  {
+    "model": "MobileNetV4 Conv Small",
+    "model_id": "mobilenetv4_conv_small.e2400_r224_in1k",
+    "seed": 123,
+    "selected_epoch": 13,
+    "weights": "models/mobilenetv4_conv_small.e2400_r224_in1k_seed123_epoch13.pt",
+    "reference_predictions": "outputs/predictions/mobilenetv4_conv_small.e2400_r224_in1k_seed123_test_predictions.csv"
+  },
+  {
+    "model": "MobileNetV4 Conv Small",
+    "model_id": "mobilenetv4_conv_small.e2400_r224_in1k",
+    "seed": 2026,
+    "selected_epoch": 5,
+    "weights": "models/mobilenetv4_conv_small.e2400_r224_in1k_seed2026_epoch05.pt",
+    "reference_predictions": "outputs/predictions/mobilenetv4_conv_small.e2400_r224_in1k_seed2026_test_predictions.csv"
+  },
+  {
+    "model": "ConvNeXt V2 Atto",
+    "model_id": "convnextv2_atto.fcmae_ft_in1k",
+    "seed": 2026,
+    "selected_epoch": 14,
+    "weights": "models/convnextv2_atto.fcmae_ft_in1k_seed2026_epoch14.pt",
+    "reference_predictions": "outputs/predictions/convnextv2_atto.fcmae_ft_in1k_seed2026_test_predictions.csv"
+  },
+  {
+    "model": "RepViT M0.9",
+    "model_id": "repvit_m0_9.dist_450e_in1k",
+    "seed": 2026,
+    "selected_epoch": 8,
+    "weights": "models/repvit_m0_9.dist_450e_in1k_seed2026_epoch08.pt",
+    "reference_predictions": "outputs/predictions/repvit_m0_9.dist_450e_in1k_seed2026_test_predictions.csv"
   }
-}
+]
