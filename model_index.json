@@ -1,0 +1,92 @@
+{
+  "project": "BRISC-XAI-Brain-Tumor",
+  "dataset": "BRISC",
+  "task": "Brain Tumor Classification",
+  "framework": "PyTorch",
+  "model_count": 9,
+  "models": [
+    {
+      "model_id": "model_01",
+      "model_name": "Model 1",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 1",
+      "prediction_file": "outputs/predictions/model_01_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_02",
+      "model_name": "Model 2",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 2",
+      "prediction_file": "outputs/predictions/model_02_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_03",
+      "model_name": "Model 3",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 3",
+      "prediction_file": "outputs/predictions/model_03_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_04",
+      "model_name": "Model 4",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 4",
+      "prediction_file": "outputs/predictions/model_04_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_05",
+      "model_name": "Model 5",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 5",
+      "prediction_file": "outputs/predictions/model_05_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_06",
+      "model_name": "Model 6",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 6",
+      "prediction_file": "outputs/predictions/model_06_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_07",
+      "model_name": "Model 7",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 7",
+      "prediction_file": "outputs/predictions/model_07_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_08",
+      "model_name": "Model 8",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 8",
+      "prediction_file": "outputs/predictions/model_08_predictions.csv",
+      "status": "update_required"
+    },
+    {
+      "model_id": "model_09",
+      "model_name": "Model 9",
+      "seed": null,
+      "checkpoint": "Google Drive link to checkpoint 9",
+      "prediction_file": "outputs/predictions/model_09_predictions.csv",
+      "status": "update_required"
+    }
+  ],
+  "storage": {
+    "checkpoint_location": "Google Drive",
+    "prediction_location": "GitHub",
+    "heatmap_location": "Google Drive or GitHub",
+    "shared_drive_link": "ADD_SHARED_GOOGLE_DRIVE_LINK"
+  },
+  "documentation": {
+    "training_protocol": "configs/brisc_training_protocol_draft_v1.json",
+    "evaluation_notebook": "notebooks/10_BRISC_Learning_Curves_and_Test_Evaluation.ipynb",
+    "xai_notebook": "notebooks/11_BRISC_XAI_Comparison.ipynb"
+  }
+}
