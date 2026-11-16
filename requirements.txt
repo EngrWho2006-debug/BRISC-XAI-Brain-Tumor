@@ -1,0 +1,32 @@
+# Data processing
+numpy
+pandas
+scipy
+
+# Image processing
+Pillow
+opencv-python
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# Machine Learning
+scikit-learn
+
+# Data visualization
+matplotlib
+seaborn
+
+# Jupyter Notebook
+jupyter
+ipykernel
+notebook
+
+# Explainable AI
+grad-cam
+
+# Utilities
+tqdm
+PyYAML
