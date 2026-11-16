@@ -1,0 +1,81 @@
+==================================================
+BRISC-XAI-BRAIN-TUMOR
+WINDOWS DEVELOPMENT ENVIRONMENT
+==================================================
+
+PROJECT:
+BRISC-XAI-Brain-Tumor
+
+OPERATING SYSTEM:
+Windows 10 / Windows 11
+
+PROGRAMMING LANGUAGE:
+Python
+
+PYTHON VERSION:
+Python 3.12
+
+DEVELOPMENT ENVIRONMENT:
+Jupyter Notebook
+GitHub
+
+DEEP LEARNING FRAMEWORK:
+PyTorch
+
+IMAGE PROCESSING:
+OpenCV
+Pillow
+
+DATA PROCESSING:
+NumPy
+Pandas
+SciPy
+
+MACHINE LEARNING:
+Scikit-learn
+
+DATA VISUALIZATION:
+Matplotlib
+Seaborn
+
+EXPLAINABLE AI:
+Grad-CAM
+
+NOTEBOOK ENVIRONMENT:
+Jupyter
+IPython
+IPykernel
+
+PROJECT TASKS:
+1. BRISC Dataset Inspection
+2. Dataset Integrity Verification
+3. Exploratory Data Analysis
+4. Leakage-Aware Dataset Splitting
+5. Image Preprocessing
+6. Model Environment Setup
+7. Model Feasibility Testing
+8. Training Protocol Preparation
+9. Model Training
+10. Learning Curve Analysis
+11. Held-Out Test Evaluation
+12. Grad-CAM Explainability Comparison
+
+MODEL FRAMEWORK:
+PyTorch
+
+MODEL CHECKPOINT FORMAT:
+.pt
+
+DATA FORMAT:
+CSV
+JSON
+NumPy (.npy)
+
+NOTE:
+Exact package versions, hardware specifications,
+CUDA version and GPU details must be verified
+from the actual training environment.
+
+==================================================
+END OF ENVIRONMENT DOCUMENT
+==================================================
