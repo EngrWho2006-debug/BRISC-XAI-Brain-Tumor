@@ -1,0 +1,61 @@
+{
+    "classification": {
+        "canonical_mode": "L",
+        "spatial_method": "direct_square_resize",
+        "default_input_size": 224,
+        "resize_interpolation": "bilinear",
+        "background_trimming": false,
+        "aspect_ratio_padding": false,
+        "output_value_range": "0_to_1",
+        "three_channel_policy": "replicate_grayscale_if_required",
+        "input_size_status": "224_default_configurable_until_model_selection"
+    },
+    "segmentation": {
+        "mri_canonical_mode": "L",
+        "target_size": 224,
+        "mri_resize_interpolation": "bilinear",
+        "mask_threshold": 128,
+        "mask_resize_interpolation": "nearest",
+        "mri_output_range": "0_to_1",
+        "mask_output_values": [
+            0,
+            1
+        ],
+        "input_size_status": "224_default_configurable_until_model_selection"
+    },
+    "augmentation": {
+        "apply_to_train_only": true,
+        "apply_to_validation": false,
+        "apply_to_test": false,
+        "rotation_degrees": [
+            -7,
+            7
+        ],
+        "translation_fraction": {
+            "horizontal": 0.05,
+            "vertical": 0.05
+        },
+        "scale_range": [
+            0.95,
+            1.05
+        ],
+        "brightness_factor_range": [
+            0.95,
+            1.05
+        ],
+        "contrast_factor_range": [
+            0.95,
+            1.05
+        ],
+        "horizontal_flip": false,
+        "vertical_flip": false,
+        "elastic_deformation": false,
+        "random_crop": false,
+        "segmentation_spatial_sync_required": true,
+        "segmentation_mask_interpolation": "nearest"
+    },
+    "normalization": {
+        "canonical_dataset_scaling": "0_to_1",
+        "architecture_specific_normalization": "deferred_to_model_pipeline"
+    }
+}
