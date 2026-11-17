@@ -96,6 +96,11 @@ If you use BRISC in your work, please cite:
 ```
 
 ---
+## Research
+
+https://colab.research.google.com/drive/1ENnrvaRMFV9PplFbso_m14g8lP9Z-iZE?usp=sharing
+
+---
 
 ## 🤝 Acknowledgments
 
